@@ -27,6 +27,8 @@ We created 25 transformations for each image present in the dataset.Some of the 
   <br>
   <em>Augmentation Example</em>
 </p>
+
+
 ## Model Training
 
 The model is loaded with ImageNet weights and 3 custom layers are added on top of MobileNet
@@ -36,5 +38,6 @@ Then the weights are unfrozen and trained again
 ## Results
 
 Confusion matrix:
-
-<img src ="Images/conf.png" width="250" height="250">
+<p align = "center">
+<img src ="Images/conf.png" width="350" height="350">
+</p>
