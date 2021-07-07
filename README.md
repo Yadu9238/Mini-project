@@ -14,6 +14,7 @@ The dataset is borrowed from [here](https://www.massey.ac.nz/~albarcza/gesture_d
 <br><br>
 <p align = "center">
 <img src = "Images/a0.jpg" width="175" height="175" >
+  <br>
   <em>The Letter 'A'</em>
 </p>
 
@@ -23,6 +24,8 @@ We created 25 transformations for each image present in the dataset.Some of the 
 
 <p align = "center">
 <img src = "Images/aug.png" width="250" height="250" align="center" >
+  <br>
+  <em>Augmentation Example</em>
 </p>
 ## Model Training
 
