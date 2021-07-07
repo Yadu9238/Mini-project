@@ -11,7 +11,12 @@ implemented this with the help of Transfer Learning with MobileNet architecture
 
 The dataset is borrowed from [here](https://www.massey.ac.nz/~albarcza/gesture_dataset2012.html).
 
-Since the dataset is not that huge, we have used albumentations for image augmentations
+<img src = "Images/a0.jpg" width="175" height="175" align="right">
+
+Since the dataset is not that huge, we have used [albumentations](https://github.com/albumentations-team/albumentations) for image augmentations
+We created 25 transformations for each image present in the dataset.Some of the transformations include
+orizontal shift, rotation, rgb shift, hue saturation value and so on.
+<img src = "Images/aug.png" width="200" height="200" align="right">
 
 ## Model Training
 
@@ -23,4 +28,4 @@ Then the weights are unfrozen and trained again
 
 Confusion matrix:
 
-<img src ="Images/conf.png" width="150" height="150">
+<img src ="Images/conf.png" width="250" height="250">
