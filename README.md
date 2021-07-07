@@ -23,4 +23,4 @@ Then the weights are unfrozen and trained again
 
 Confusion matrix:
 
-![](Images/conf.png | width = 100)
+<img src ="Images/conf.png" width="150" height="150">
