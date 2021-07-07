@@ -11,6 +11,7 @@ implemented this with the help of Transfer Learning with MobileNet architecture
 
 The dataset is borrowed from [here](https://www.massey.ac.nz/~albarcza/gesture_dataset2012.html).
 Sample Image from Dataset(The letter 'A') :
+<br><br>
 <img src = "Images/a0.jpg" width="175" height="175" align="center">
 
 Since the dataset is not that huge, we have used [albumentations](https://github.com/albumentations-team/albumentations) for image augmentations
