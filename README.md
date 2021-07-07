@@ -12,13 +12,17 @@ implemented this with the help of Transfer Learning with MobileNet architecture
 The dataset is borrowed from [here](https://www.massey.ac.nz/~albarcza/gesture_dataset2012.html).
 Sample Image from Dataset(The letter 'A') :
 <br><br>
-<img src = "Images/a0.jpg" width="175" height="175" align="center">
+<p align = "center">
+<img src = "Images/a0.jpg" width="175" height="175" >
+</p>
 
 Since the dataset is not that huge, we have used [albumentations](https://github.com/albumentations-team/albumentations) for image augmentations
 We created 25 transformations for each image present in the dataset.Some of the transformations include horizontal shift, rotation, rgb shift, hue saturation value and so on.
 <br>
-<img src = "Images/aug.png" width="250" height="250" align="center" >
 
+<p align = "center">
+<img src = "Images/aug.png" width="250" height="250" align="center" >
+</p>
 ## Model Training
 
 The model is loaded with ImageNet weights and 3 custom layers are added on top of MobileNet
