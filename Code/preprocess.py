@@ -75,7 +75,7 @@ def get_data(folder):
                     y.append(label)
     X2 = np.asarray(X)
     y2 = np.asarray(y)
-    return X,y
+    return X2,y2
 
 X2, y2 = get_data("dummy/")
 
